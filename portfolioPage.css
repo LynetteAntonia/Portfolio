@@ -25,8 +25,34 @@ html{
         font-size: 45px;
         color: #242423;
         margin: auto;
+        opacity: 1.1;
+        animation: fadeIn ease 5s;
         margin-top: 13%;
         height: 110vh;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
       }
 @media only screen and (max-width: 600px){
     .jumbotron-text-items{
