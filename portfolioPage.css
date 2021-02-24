@@ -349,6 +349,7 @@ html{
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    color:#e2e2d9e0;
 }
 @media only screen and (max-width: 600px){
     .box4{
@@ -368,6 +369,7 @@ html{
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    color:#e2e2d9e0;
 }
 .box6{
     height: 190px;
@@ -382,6 +384,7 @@ html{
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    color:#e2e2d9e0;
 }
 #box-pseudo:hover{
     background-color: #fad36a;
